@@ -1,0 +1,186 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.formulario, .anuncios {
+  width: 80%;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #0077b6;
+}
+
+form input, form textarea, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  background: #e9ecef;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+.formulario,
+.anuncios {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+form input,
+form textarea {
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #023e8a;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1 1 300px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 15px 15px 10px;
+}
+
+.card p {
+    padding: 0 15px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .cards-container {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .formulario,
+    .anuncios {
+        width: 95%;
+    }
+
+}
